@@ -6,6 +6,7 @@ import { CupComponent } from './cup/cup.component';
 import { CylinderComponent } from './cylinder/cylinder.component';
 import { ImageGraphicsComponent } from './image-graphics/image-graphics.component';
 import { EdgesComponent } from './edges/edges.component';
+import { CharacterComponent } from './character/character.component';
 
 
 @Component({
@@ -18,7 +19,8 @@ import { EdgesComponent } from './edges/edges.component';
     CupComponent, 
     CylinderComponent,
     ImageGraphicsComponent,
-    EdgesComponent
+    EdgesComponent,
+    CharacterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
